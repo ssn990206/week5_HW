@@ -1,0 +1,59 @@
+.pay{
+    margin-top: 36px;
+    width: 940px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: 940px auto;
+    background-position: center;
+    background-image: url("https://bit.ly/2P7GhNd");
+    display: flex;
+    align-items: center;
+}
+
+.payMain{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payMain img{
+    margin-top: 30px;
+    width: 190px;
+}
+
+.shop{
+    margin-top: 56px;
+    background-color: $yellow;
+    width: 100%;
+    height: 65px;
+    color: $green;
+    font-size: 24px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.shopMobile{
+    display: none;
+}
+
+@media(max-width:768px){
+    .pay{
+        width: 100%;
+        height: 518px;
+    }
+    .contact{
+        margin-top: 0px;
+    }
+}
+@media(max-width:414px){
+    .shop{
+        display: none;
+    }
+    .shopMobile{
+        display: block;
+        margin-top: 0;
+    }
+}
